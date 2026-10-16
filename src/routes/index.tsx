@@ -216,6 +216,15 @@ function Reviews() {
           ))}
         </div>
         <p className="mt-6 text-xs opacity-60">Nota 4,9 de 5 · 64 avaliações no perfil do Google do estúdio.</p>
+        <div className="mt-6 flex flex-col gap-5 rounded-3xl border border-gold/40 bg-cocoa-foreground/5 p-6 sm:flex-row sm:items-center sm:justify-between">
+          <div>
+            <p className="font-display text-2xl leading-snug">Atendida pelo estúdio?</p>
+            <p className="mt-1 text-sm opacity-75">Deixe sua avaliação no Google — leva menos de um minuto e ajuda outras clientes a encontrarem a Cris.</p>
+          </div>
+          <a href={SALON.googleReviewUrl} target="_blank" rel="noopener noreferrer" className="inline-flex shrink-0 items-center gap-2 rounded-full bg-gold px-5 py-3 text-sm font-medium text-cocoa transition hover:opacity-90">
+            Avaliar no Google <ArrowRight className="h-4 w-4" />
+          </a>
+        </div>
       </div>
     </section>
   );
