@@ -193,9 +193,8 @@ function Faq() {
 
 // Real, public Google reviews of Cris Fujarra (4.9 of 5, 64 reviews on the profile).
 const REVIEWS = [
-  { text: "Atendimento maravilhoso desde o primeiro contato. Cris e sua equipe são maravilhosas, só elogios. Amei meu dia da noiva!", origin: "Avaliação no Google · 2024" },
-  { text: "A Cris é maravilhosa, e tem uma equipe maravilhosa também. Muito atenciosas, fiz meu dia de noiva e superaram minhas expectativas!", origin: "Avaliação no Google · 2022" },
-  { text: "Ambiente seguro, somente com horário marcado e eu sendo atendida. A Cris é uma cabeleireira excelente! Já fiz meu dia de noiva com ela e foi ótimo.", origin: "Avaliação no Google · 2021" },
+  { text: "A Cris me atendeu já fazem dois anos… e como noiva posso dizer, foi minha melhor escolha. Teve uma sensibilidade gigante, uma equipe excelente e estava o tempo todo de bom humor. Obrigada por ter participado de um momento tão lindo na minha vida!", origin: "Adrielle Ariosi Iwai" },
+  { text: "Cris é uma profissional excelente, com um dom maravilhoso em embelezar ainda mais as mulheres, possui um espaço lindo e muito aconchegante.", origin: "Jéssica Alves" },
 ];
 
 function Reviews() {
@@ -207,7 +206,7 @@ function Reviews() {
           <h2 className="font-display text-4xl leading-tight sm:text-5xl">O que as clientes <em>contam.</em></h2>
           <p className="mt-3 text-sm opacity-75">Avaliações públicas do perfil do Google do estúdio.</p>
         </div>
-        <div className="grid gap-5 md:grid-cols-3">
+        <div className="grid gap-5 md:grid-cols-2">
           {REVIEWS.map((r) => (
             <figure key={r.origin} className="rounded-3xl border border-cocoa-foreground/20 bg-cocoa-foreground/5 p-6">
               <span className="inline-block rounded-full border border-gold/50 px-3 py-1 text-[11px] uppercase tracking-wider text-gold">Google</span>
