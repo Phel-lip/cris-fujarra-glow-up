@@ -24,7 +24,6 @@ export const SALON = {
   // Opens the studio's Google profile so the client can write a review.
   googleReviewUrl: "https://www.google.com/maps/search/?api=1&query=Cris+Fujarra+Est%C3%BAdio+de+Beleza+Joinville",
   heroImg: hero,
-  heroImg: hero,
 };
 
 const IG = "https://www.instagram.com/crisfujarra";
